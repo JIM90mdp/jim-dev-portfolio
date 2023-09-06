@@ -54,7 +54,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Greetings, I&#39;m Juan I. Mascarenhas, <br/>a seasoned web developer
+                Greetings, I'm Juan I. Mascarenhas, <br/>a seasoned web developer
                 and proficient UI/UX architect, <br/>deeply dedicated to crafting
                 aesthetically pleasing, highly functional, <br/>and user-centric
                 digital interfaces. <br/>Armed with 2 years of industry expertise.<br/>
