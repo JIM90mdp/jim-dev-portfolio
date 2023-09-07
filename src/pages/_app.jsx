@@ -11,6 +11,7 @@ const montserrat = Montserrat({
   variable: '--font-mont',
 });
 
+
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
 
