@@ -54,23 +54,17 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Greetings, I'm Juan I. Mascarenhas, <br/>a seasoned web developer
-                and proficient UI/UX architect, <br/>deeply dedicated to crafting
-                aesthetically pleasing, highly functional, <br/>and user-centric
-                digital interfaces. <br/>Armed with 2 years of industry expertise.<br/>
-                I continuously explore novel and cutting-edge strategies to
-                transform my clients' concepts into reality.
+                I'm Juan I. Mascarenhas, an experienced web developer with a
+                knack for crafting visually appealing, highly functional, and
+                user-friendly digital interfaces.
               </p>
               <p className="my-4 font-medium">
-                I firmly hold the view that design transcends aesthetics; <br/>it
-                revolves around problem-solving and crafting seamless,<br/>
-                delightful interactions for users.
+                I firmly believe that design goes beyond looks; it's about
+                problem-solving and creating seamless, enjoyable experiences for
+                users.
               </p>
               <p className="font-medium">
-                When it comes to web development, <br/>I integrate my unwavering
-                commitment to design excellence and a user-centric approach into
-                every project. <br/>I look forward to the privilege of contributing
-                my expertise and enthusiasm to your upcoming project.
+              In the realm of web development, I seamlessly blend my dedication to outstanding design with a focus on user needs in every project. I'm excited about the opportunity to bring my expertise and enthusiasm to your next venture.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 xl:items-center md:order-1 md:col-span-8">
