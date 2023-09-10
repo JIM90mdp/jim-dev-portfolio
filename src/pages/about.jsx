@@ -45,7 +45,7 @@ const about = () => {
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout>
           <AnimatedText
-            text="1% better each day"
+            text="1% each day"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="w-full grid grid-cols-8 gap-16 sm:gap-8">
