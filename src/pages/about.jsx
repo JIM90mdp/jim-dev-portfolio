@@ -64,12 +64,12 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                I'm Juan I. Mascarenhas, an experienced web developer with a
+                I'm Juan I. Mascarenhas, an web developer with a
                 knack for crafting visually appealing, highly functional, and
                 user-friendly digital interfaces.
               </p>
               <p className="my-4 font-medium">
-                I firmly believe that design goes beyond looks; it's about
+                I firmly believe that design goes beyond looks. it's about
                 problem-solving and creating seamless, enjoyable experiences for
                 users.
               </p>
