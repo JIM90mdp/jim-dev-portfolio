@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Head>
         <title>JIM-DEV</title>
-        <meta name='description' content='Web Developer UI/UX Designer' />
+        <meta name='description' content='Frontend Web Developer' />
       </Head>
       <TransitionEffect />
       <main className='flex items-center text-dark dark:text-light w-full min-h-screen'>
