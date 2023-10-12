@@ -7,6 +7,7 @@ import project1 from "../../public/images/projects/song-challenge.png";
 import project2 from "../../public/images/projects/mmc-servicios-juridicos.png";
 import project3 from "../../public/images/projects/groove-tickets.png";
 import project4 from "../../public/images/projects/jim-countries.png";
+import project5 from "../../public/images/projects/colonia-fasta-mda.png";
 import { GithubIcon } from "@/components/Icon";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
