@@ -8,14 +8,12 @@ import HireMe from '@/components/HireMe';
 import profilePic from '../../public/images/profile/developer-pic-1.png';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import TransitionEffect from '@/components/TransitionEffect';
+import SEO from '@/components/SEO';
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>JIM-DEV</title>
-        <meta name='description' content='Frontend Web Developer' />
-      </Head>
+      <SEO />
       <TransitionEffect />
       <main className='flex items-center text-dark dark:text-light w-full min-h-screen'>
         <Layout className='pt-0 md:p-16 sm:pt-8'>

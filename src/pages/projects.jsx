@@ -103,9 +103,9 @@ const Project = ({ title, type, img, link, github }) => {
           >
             Visit
           </Link>
-          <Link href={github} target="_blank" className="w-8 md:w-6">
+          {<Link href={github} target="_blank" className="w-8 md:w-6">
             <GithubIcon />
-          </Link>
+          </Link>}
         </div>
       </div>
     </article>
@@ -127,6 +127,18 @@ const projects = () => {
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="col-span-12">
+
+          <div className="col-span-12 mb-10">
+              <FeaturedProject
+                type="Featured Project"
+                title="MMC - Servicios Legales"
+                summary="Web application for a lawyer customer, allowing users to learn about the legal services provided, submit free legal inquiries, and access information related to legal services. Developed using JavaScript, React.js, Next.js, CSS and Framer Motion"
+                img={project2}
+                link="https://mmclegales.com/"
+                github="/"
+              />
+            </div>
+
             <div className="col-span-12  mb-10">
               <FeaturedProject
                 type="Featured Project"
@@ -137,17 +149,7 @@ const projects = () => {
                 github="https://github.com/JIM90mdp/song-challenge"
               />
             </div>
-
-            <div className="col-span-12 mb-10">
-              <FeaturedProject
-                type="Featured Project"
-                title="MMC - Servicios Jurídicos"
-                summary="Web application for a lawyer customer, allowing users to learn about the legal services provided, submit free legal inquiries, and access information related to legal services. Developed using JavaScript, React.js, Next.js, CSS and Framer Motion"
-                img={project2}
-                link="/"
-                github="/"
-              />
-            </div>
+            
 
             <div className="col-span-12 mb-10">
               <FeaturedProject
