@@ -17,12 +17,20 @@ module.exports = {
         dark: "#04044d",
         light: "#f5f5f5",
         primary: "#3e70b6", // 240,86,199
-        primaryDark: "#58E6D9", // 80,230,217
+        primaryDark: "#5891e6", // 80,230,217
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",
       },
+      // gradient: {
+      //   primaryGradient:
+      //     "linear-gradient(83deg, rgba(62,112,182,1) 0%, rgba(4,4,77,1) 100%)"
+      // },
       backgroundImage: {
+        rightGradient:
+          "linear-gradient(266deg, rgba(62,112,182,1) 0%, rgba(4,4,77,0.6867121848739496) 100%)",
+        leftGradient:
+          "linear-gradient(90deg, rgba(62,112,182,1) 0%, rgba(4,4,77,0.6867121848739496) 100%)",
         circularLight:
           "repeating-radial-gradient(rgba(0, 0, 0, 0.4) 2px, #F5F5F5 5px, #F5F5F5 100px);",
         circularDark:

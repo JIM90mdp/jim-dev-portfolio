@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { LinkArrow } from '@/components/Icon';
 import HireMe from '@/components/HireMe';
 import profilePic from '../../public/images/profile/developer-pic-1.png';
-import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
+import lightBulb from '../../public/images/svgs/undraw_speed_test_re_pe1f.svg';
 import TransitionEffect from '@/components/TransitionEffect';
 import SEO from '@/components/SEO';
 
@@ -33,7 +33,7 @@ export default function Home() {
                 className='!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-              As a full-stack developer with expertise in turning ideas into innovative web applications, <br/> I invite you to explore my background and my latest projects, showcasing my proficiency in React.js, Next.js, Tailwind, and other cool libraries.
+              Front-end web developer with expertise in turning ideas into innovative web applications, <br/> I invite you to explore my background and my latest projects, showcasing my proficiency in React.js, Next.js, Tailwind, and other cool libraries.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
@@ -46,6 +46,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href='mailto:juanignaciomascarenhas@gmail.com'
+                  target="_blank"
                   className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
                 >
                   Contact
@@ -55,7 +56,7 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
+        <div className='absolute right-8 bottom-8 inline-block w-48 md:hidden'>
           <Image src={lightBulb} alt='Codebucks' className='w-full h-auto' />
         </div>
       </main>
