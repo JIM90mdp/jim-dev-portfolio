@@ -17,7 +17,7 @@ export default function Home() {
       <TransitionEffect />
       <main className='flex items-center text-dark dark:text-light w-full min-h-screen'>
         <Layout className='pt-0 md:p-16 sm:pt-8'>
-          <div className='flex items-center justify-between w-full lg:flex-col'>
+          <div className='flex items-center justify-between w-full flex-col'>
             <div className='w-1/3 md:w-full'>
               <Image
                 src={profilePic}
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText
-                text='Every second counts. Programming the path to success.'
+                text='JIM Dev'
                 className='!text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <HireMe />
+        {/* <HireMe /> */}
         <div className='absolute right-8 bottom-8 inline-block w-48 md:hidden'>
           <Image src={lightBulb} alt='Codebucks' className='w-full h-auto' />
         </div>

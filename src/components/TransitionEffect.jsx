@@ -8,14 +8,14 @@ const TransitionEffect = () => {
         initial={{ x: '0%', width: '50%' }}
         animate={{ x: '0%', width: '0%' }}
         // exit={{ x: ['-100%', '100%'], width: ['100%', '0%'] }}
-        transition={{ duration: 1.5, ease: 'easeInOut' }}
+        transition={{ duration: 0.8, ease: 'easeInOut' }}
       />
       <motion.div
         className='fixed top-0 bottom-0 right-0 w-1/2 z-20 bg-leftGradient'
         initial={{ x: '0%', width: '50%' }}
         animate={{ x: '0%', width: '0%' }}
         // exit={{ x: ['100%', '-100%'], width: ['100%', '0%'] }}
-        transition={{ duration: 1.5, ease: 'easeInOut' }}
+        transition={{ duration: 0.8, ease: 'easeInOut' }}
       />
     </>
   );

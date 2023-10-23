@@ -50,9 +50,14 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link href={github} target="_blank" className="w-10">
-            <GithubIcon />
-          </Link>
+          {github === "/" ? (
+            <></>
+          ) : (
+            <Link href={github} target="_blank" className="w-10">
+              <GithubIcon />
+            </Link>
+          )}
+
           <Link
             href={link}
             target="_blank"
@@ -169,7 +174,7 @@ const projects = () => {
                 summary="Developed an ecommerce website to sell tickets for live music concerts."
                 img={project3}
                 link="/"
-                github="/"
+                github="https://github.com/JIM90mdp/Groove-TIckets-Back"
               />
             </div>
 

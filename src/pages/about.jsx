@@ -1,4 +1,4 @@
-import AnimatedText from "@/components/AnimatedText";
+import AnimatedTextTwo from "@/components/AnimatedTextTwo";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
@@ -44,7 +44,7 @@ const about = () => {
       <TransitionEffect />
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout>
-          <AnimatedText
+          <AnimatedTextTwo
             text="1% each day"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
